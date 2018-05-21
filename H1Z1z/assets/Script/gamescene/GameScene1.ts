@@ -11,27 +11,13 @@
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class Hero extends cc.Component {
-
-    @property(cc.Label)
-    label: cc.Label = null;
-
-    @property
-    text: string = 'hello';
-    // runAction :hero_run = null;
-    // LIFE-CYCLE CALLBACKS:
-
-    onLoad () {
-        let hero_run = this.getComponent(cc.Animation);
-        hero_run.play();
-        console.log("1111111");
-    }
+export default class GameScene1 extends cc.Component {
+    
+    // onLoad () {}
 
     start () {
-        // hero_run = this.getComponent<Animation>("");
-        
-
+        let EveMsg = EventManager.Instance;
     }
 
-    update (dt) {}
+    // update (dt) {}
 }
