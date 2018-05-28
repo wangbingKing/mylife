@@ -65,3 +65,9 @@ quick_gen_project_*_autogen.sh.meta
 #//////////////////////////
 
 .vscode/
+
+fire/com.game.fire/cocos2d/*
+fire/com.game.fire/proj.win32/.vs/com.game.fire/v15/Browse.VC.db
+fire/com.game.fire/proj.win32/.vs/com.game.fire/v15/Solution.VC.db
+fire/com.game.fire/proj.win32/com.game.fire.VC.db
+fire/com.game.fire/proj.win32/game.rc
